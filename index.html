@@ -38,25 +38,33 @@ Error generating stack: `+l.message+`
 </script>
   <script>(function(){function m(a){var h=a.getAttribute("href");if(!h)return;try{var u=new URL(h,document.baseURI);if((u.protocol==="http:"||u.protocol==="https:")&&u.host!==location.host){a.target="_blank";a.rel="noopener noreferrer";}}catch(e){}}function s(){document.querySelectorAll("a[href]").forEach(m);}if(document.readyState!=="loading"){s();}else{document.addEventListener("DOMContentLoaded",s);}document.addEventListener("click",function(e){var a=e.target&&e.target.closest&&e.target.closest("a[href]");if(a){m(a);}},true);})();</script>
 
-  <a href="https://jameshdi.github.io/evesroadmap.github.io/" class="my-button">Click Here</a>
+<div class="roadmap-section">
+    <h2>Click Here for EVES Roadmap</h2>
 
-<style>
-  .my-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF; /* Button Color */
-    color: white;              /* Text Color */
-    text-decoration: none;     /* Removes the link underline */
-    border-radius: 5px;        /* Rounds the corners */
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  /* Optional: Changes background color when hovering over the button */
-  .my-button:hover {
-    background-color: #0056b3; 
-  }
-</style>
+    <a href="https://jameshdi.github.io/evesroadmap.github.io/"
+       class="my-button">
+       Click Here
+    </a>
+</div>
+
+  .roadmap-section{
+    text-align:center;
+    margin:30px 0;
+}
+
+.roadmap-section h2{
+    margin-bottom:15px;
+}
+
+.my-button{
+    display:inline-block;
+    padding:10px 24px;
+    background:#007BFF;
+    color:#fff;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
   
 </body>
 </html>
